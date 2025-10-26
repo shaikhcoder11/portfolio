@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Image/icons8-detective-68.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        .section__border{
+            margin: 0 auto;
+        }
+    </style>
+    <title>Portfolio</title>
+</head>
+
+<body style="color: hsl(207, 4%, 32%);">
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo"
+                style="height: 50px; width: 50px; display: flex; flex-direction: row; flex-wrap: nowrap; align-content: space-around; justify-content: space-between; align-items: center;">
+                <img src="Image/icons8-detective-68.png" style="border-radius: 2rem;" alt="wait"><a
+                    class="nav__logo">Shaikh Azeem</a>
+
+                    
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__itemm">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="ri-home-line"></i> 𝐇𝐎𝐌𝐄
+                        </a>
+                    </li>
+                    <li class="nav__itemm">
+                        <a href="#skills" class="nav__link">
+                            <i class="ri-code-line"></i> 𝐒𝐊𝐈𝐋𝐋𝐒
+                        </a>
+                    </li>                    
+                    <li class="nav__itemm">
+                        <a href="#projects" class="nav__link">
+                            <i class="ri-macbook-line"></i> 𝐏𝐑𝐎𝐉𝐄𝐂𝐓𝐒
+                        </a>
+                    </li>
+                    <li class="nav__itemm">
+                        <a href="#contact" class="nav__link">
+                            <i class="ri-chat-4-line"></i> 𝐂𝐎𝐍𝐓𝐀𝐂𝐓-𝐌𝐄
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- Close button -->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+            <div class="nav__buttons">
+                <!-- Theme change button -->
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                <!-- Toggle button -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid section__border">
+                <div class="home__data grid">
+                    <h1 class="home__title">
+                        Hi, I'm Shaikh Azeem Frontend Developer & Software Engineer.<br>
+                    </h1>
+                    <div class="home__blob grid">
+                        <div class="home__perfil">
+                            <img 
+                                style="
+                                    height: 100%;
+                                    width: 100%;
+                                    object-fit: cover;
+                                "
+                                src="Image/mypic.jpeg"
+                                alt="home perfil"
+                            />
+                        </div>
+                        <img src="assets/img/shape-wawes.svg" alt="" class="home__shape-wawes">
+                        <img src="assets/img/shape-circle.svg" alt="" class="home__shape-circle">
+                    </div>
+                    <ul class="home__social">
+                        <a href="https://www.linkedin.com/in/shaikh-azeem-04714b37b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="home__social-link">
+                            <i class="ri-linkedin-box-line" style="font-size: 30px;"></i><br>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://wa.me/917058204462?text=Hello%2C%20I%20have%20a%20quick%20question%20about..." target="_blank" class="home__social-link">
+                            <i class="ri-whatsapp-line" style="font-size: 30px;"></i><br>
+                            <span>WhatsApp</span>
+                        </a>
+                    </ul>
+                </div>
+                <!--==================== HOME INFO 1 ====================-->
+                <div class="home__info" style="padding-left: 10px;">
+                    <div>
+                        <h3 class="home__info-title">
+                            BIOGRAPHY
+                        </h3>
+                        <p class="home__info-description">
+                            I'm Shaikh Azeem — a frontend developer blending creativity
+                            with code to build engaging, immersive web experiences.
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="home__info-title" style="font-weight: bold;">
+                            CONTACT
+                        </h3>
+                        <p class="home__info-description"style="font-weight: bold;">
+                            Email <br>
+                            shaikh-azeem-official <br>
+                        </p>
+                        <p class="home__info-description" style="font-weight: bold;">
+                           <br> Number <br>
+                            7058204462 <br>
+                        </p>
+                        <p class="home__info-description" style="font-weight: bold;">
+                           <br> My Portfolio <br>
+                           <a class="home__info-description" href="https://shaikh-azeem-official.github.io/portfolio/" target="_blank"> Click <br></a>
+                        </p>
+                    </div>
+                </div>
+                <!--==================== HOME INFO 2 ====================-->
+                <div class="home__info">
+                    <div>
+                        <h3 class="home__info-title">
+                            GRADUATED
+                        </h3>
+                        <p class="home__info-number" style="font-size: 20px;">
+                            Running
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="home__info-title">
+                            COMPLETED PROJECTS
+                        </h3>
+                        <p class="home__info-number">
+                            10+
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="home__info-title">
+                            PERSONAL WORKED FOR
+                        </h3>
+                        <p class="home__info-number">
+                            10+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">
+                Skills
+            </h2>
+            <span class="section__subtitle">
+                Experience
+            </span>
+            <div class="skills__container container grid section__border">
+                <!--==================== SKILLS 1 ====================-->
+                <div class="skills__content">
+                    <h3 class="skills__title">
+                        <i class="ri-braces-line"></i> Software Developer
+                    </h3>
+                    <div class="skills__info">
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="Image/html.webp" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">
+                                HTML
+                            </h3>
+                            <span class="skills__subtitle">
+                                Advanced
+                            </span>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="Image/css.png" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">
+                                CSS
+                            </h3>
+                            <span class="skills__subtitle">
+                                Advanced
+                            </span>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="Image/JS.gif" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">
+                                Java Script
+                            </h3>
+                            <span class="skills__subtitle">
+                                Advanced
+                            </span>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="Image/c.webp" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">
+                                C
+                            </h3>
+                            <span class="skills__subtitle">
+                                Advanced
+                            </span>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="Image/C Sharp.png" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">
+                                C#
+                            </h3>
+                            <span class="skills__subtitle">
+                                Advanced
+                            </span>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="Image/python.gif" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">
+                                Python
+                            </h3>
+                            <span class="skills__subtitle">
+                                Advanced
+                            </span>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="Image/DBMS.png" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">
+                                DBMS
+                            </h3>
+                            <span class="skills__subtitle">
+                                Advanced
+                            </span>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="Image/data analyst.png" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">
+                                Data Analyst
+                            </h3>
+                            <span class="skills__subtitle">
+                                Advanced
+                            </span>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="Image/c++.png" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">
+                                C++
+                            </h3>
+                            <span class="skills__subtitle">
+                                Advanced
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>  
+          <h2 class="section__title">
+                Projects
+            </h2>
+            <span class="section__subtitle">
+                My personal projects
+            </span>      
+ <!--==================== PROJECTS ====================-->
+        <section class="projects section" id="projects">
+            <div class="swiper-wrapper"> 
+        
+                <div class="container section__border">
+                    <div class="projects__container swiper">
+                        <div class="swiper-wrapper">
+                            <!--==================== PROJECT 1 ====================-->
+                            <div class="projects__content swiper-slide">
+                                <img src="Image/animal.png" alt="projects image" class="projects__img">
+                                <div>
+                                    <span class="projects__subtitle">
+                                        Fullstack 
+                                    </span>
+                                    <h1 class="projects__title">
+                                        <a href="https://shaikhcoder777.github.io/index/index.html" target="_blank">Animal Information</a>
+                                    </h1>
+                                </div>
+                            </div>
+                            <!--==================== PROJECT 2 ====================-->
+                            <div class="projects__content swiper-slide">
+                                <img src="Image/Portfolio.png" alt="projects image" class="projects__img">
+                                <div>
+                                    <span class="projects__subtitle">
+                                        front-end
+                                    </span>
+                                    <h1 class="projects__title">
+                                        <a href="https://shaikh-azeem-official.github.io/portfolio/" target="_blank">Portfolio Website</a>
+                                    </h1>
+                                </div>
+                            </div>
+                            <!--==================== PROJECT 3 ====================-->
+                            <div class="projects__content swiper-slide">
+                                <img src="Image/New Portfolio.png" alt="projects image" class="projects__img">
+                                <div>
+                                    <span class="projects__subtitle">
+                                        front-end
+                                    </span>
+                                    <h1 class="projects__title">
+                                        New Portfolio
+                                    </h1>
+                                </div>
+                            </div>
+                            <!--==================== PROJECT 4 ====================-->
+                            <div class="projects__content swiper-slide">
+                                <img src="Image/school.png" alt="projects image" class="projects__img">
+                                <div>
+                                    <span class="projects__subtitle">
+                                        front-end
+                                    </span>
+                                    <h1 class="projects__title">
+                                        Shcool Website
+                                    </h1>
+                                </div>
+                            </div>
+                            <!--==================== PROJECT 5 ====================-->
+                            <div class="projects__content swiper-slide">
+                                <img src="Image/Restorant.png" alt="projects image" class="projects__img">
+                                <div>
+                                    <span class="projects__subtitle">
+                                        front-end
+                                    </span>
+                                    <h1 class="projects__title">
+                                        Restorant Website
+                                    </h1>
+                                </div>
+                            </div>
+                            <!--==================== PROJECT 6 ====================-->
+                            <div class="projects__content swiper-slide">
+                                <img src="Image/TRAVEL.png" alt="projects image" class="projects__img">
+                                <div>
+                                    <span class="projects__subtitle">
+                                        front-end
+                                    </span>
+                                    <h1 class="projects__title">
+                                        Tourism website
+                                    </h1>
+                                </div>
+                            </div>
+                            <!--==================== PROJECT 7 ====================-->
+                            <div class="projects__content swiper-slide">
+                                <img src="Image/MOVIES_.png" alt="projects image" class="projects__img">
+                                <div>
+                                    <span class="projects__subtitle">
+                                        front-end
+                                    </span>
+                                    <h1 class="projects__title">
+                                        MOVIES_ Website
+                                    </h1>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        
+        
+                        <!-- Swiper arrows -->
+                        <div class="swiper-button-next">
+                        </div>
+                        <div class="swiper-button-prev">
+                        </div>
+                        <!-- Swiper pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+        </section>
+        <!--==================== TESTIMONIAL ====================-->
+        <!-- <section class="testimonial section"></section> -->
+
+        <!--==================== CONTACT ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">
+                Contact Me
+            </h2>
+            <span class="section__subtitle">
+                Get in touch
+            </span>
+            <div class="contact__container container grid section__border">
+                <div class="contact__content">
+                    <h3 class="contact__title">
+                        <i class="ri-chat-3-line"></i>
+                        Text me
+                    </h3>
+                    <div class="contact__info">
+                        <div class="contact__data">
+                            <span class="contact__data-title">
+                                Email
+                            </span>
+                            <span class="contact__data-info">
+                               Shaikhazeem.official@Gmail.com
+                            </span>
+                        </div>
+                        <div class="contact__data">
+                            <span class="contact__data-title">
+                                LinkedIn
+                            </span>
+                            <a href="https://www.linkedin.com/in/shaikh-azeem-04714b37b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="contact__button">
+                                Join <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+                        <div class="contact__data">
+                            <span class="contact__data-title">
+                                WhatsApp
+                            </span>
+                            <a href="https://wa.me/917058204462?text=Hello%2C%20I%20have%20a%20quick%20question%20about..." rel="noopener" target="_blank"
+                                class="contact__button">
+                                Join <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact__content" style="padding-right: 10px;">
+                    <h3 class="contact__title">
+                        <i class="ri-send-plane-line"></i> Have a query for me?
+                    </h3>
+                    <form action="" class="contact__form" id="contact-form">
+                        <div class="contact__form-div">
+                            <label class="contact__form-tag">
+                                Name
+                            </label>
+                            <input type="text" name="user_name" required placeholder="Your name"
+                                class="contact__form-input" id="contact-name">
+                        </div>
+                        <div class="contact__form-div">
+                            <label class="contact__form-tag">
+                                Email
+                            </label>
+                            <input type="email" name="user_email" required placeholder="Your email"
+                                class="contact__form-input" id="contact-email">
+                        </div>
+                        <div class="contact__form-div contact__form-area">
+                            <label class="contact__form-tag">
+                                Message
+                            </label>
+                            <textarea name="user_project" placeholder="Ask me something?" id="contact-project"
+                                class="contact__form-input"></textarea>
+                        </div>
+                        <p class="contact__message" id="contact-message"></p>
+                        <button type="submit" class="contact__button">
+                            Send <i class="ri-arrow-right-up-line"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">
+                Shaikh Azeem
+            </h1>
+            <p>
+                Frontend Developer
+            </p>
+            <ul class="footer__list">
+                <li>
+                    <a href="#home" class="footer__link">𝐇𝐎𝐌𝐄</a>
+                </li>
+                <li>
+                    <a href="#skills" class="footer__link">𝐒𝐊𝐈𝐋𝐋𝐒</a>
+                </li>
+                <li>
+                    <a href="#projects" class="footer__link">𝐏𝐑𝐎𝐉𝐄𝐂𝐓𝐒</a>
+                </li>
+            </ul>
+            <ul class="footer__social">
+                <a href="https://www.linkedin.com/in/shaikh-azeem-04714b37b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="home__social-link">
+                    <i class="ri-linkedin-box-line" style="font-size: 30px;"></i><br>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://wa.me/917058204462?text=Hello%2C%20I%20have%20a%20quick%20question%20about..." target="_blank" class="home__social-link">
+                    <i class="ri-whatsapp-line" style="font-size: 30px;"></i><br>
+                    <span>WhatsApp</span>
+                </a>
+            </ul>
+            <span class="footer__copy" style="font-weight: bold; color: black; font-size: 15px;">
+                &#169; Designed & Developed by Shaikh Azeem.
+            </span>
+        </div>
+    </footer>
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+    <script src="scrollreveal.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+
+    
+<script>
+const swiperProjects = new Swiper('.projects__container', {
+  loop: true,
+  spaceBetween: 30,
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  breakpoints: {
+    768: { slidesPerView: 2 },
+    1200: { slidesPerView: 2, spaceBetween: 40 },
+  },
+});
+
+
+
+</script>
+
+</body>
+
+</html>
